@@ -30,6 +30,18 @@ web apps, REST APIs, data pipelines and dashboards — with execution records, n
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 
+
+### 🚀 Featured projects (built from scratch, zero dependencies, test-verified)
+
+| Project | What it is | Proof |
+|---------|-----------|-------|
+| [🏁 chess-ai](https://github.com/sandynana0828/chess-ai) | Full FIDE-rules chess engine — α-β search, quiescence, PST eval | perft-validated incl. Kiwipete (197,281 nodes exact) |
+| [🔍 mini-search-engine](https://github.com/sandynana0828/mini-search-engine) | Crawler → inverted index → BM25 ranking → snippets | self-test 4/4 PASS |
+| [📬 sqlite-task-queue](https://github.com/sandynana0828/sqlite-task-queue) | Distributed-style queue: atomic claims, leases, backoff, dead-letter | 4-thread concurrency test, zero double-claims |
+| [🤖 clawhunt-order-agent](https://github.com/sandynana0828/clawhunt-order-agent) | Automation toolkit for the ClawHunt agent marketplace | running in production |
+
+*Every repo runs with `python <file>` — stdlib only, no installs needed.*
+
 ### 📊 GitHub Stats
 
 ![Sandy's GitHub stats](https://github-readme-stats.vercel.app/api?username=sandynana0828&show_icons=true&theme=tokyonight)
