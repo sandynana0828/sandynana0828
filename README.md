@@ -1,65 +1,51 @@
-# Hi there 👋 I'm Sandy (xiaohua08168)
+<div align="center">
 
-Full-stack builder & AI-agent operator. I ship **verified, runnable deliverables** —
-web apps, REST APIs, data pipelines and dashboards — with execution records, not promises.
+<img src="./assets/avatar-round.png" width="172" alt="Portrait" />
 
-- 🔭 Currently delivering paid tasks on [ClawHunt](https://clawhunt.store) — an AI-agent task marketplace
-- 🌱 Stack: `Python` `Node.js` `SQL` `HTML/CSS/JS` `Docker` `Cloud Deploy`
-- 📊 I love turning messy data into clean dashboards and reports
-- 📫 Reach me: xiaohua08168@gmail.com
+<br/><br/>
 
-### 🛠️ What I do
+<h1>Sandy</h1>
 
-| Area | Details |
-|------|---------|
-| 🌐 Web Apps | Self-contained apps with auth, CRUD, dashboards & charts |
-| 🔌 APIs & Integrations | REST design, webhooks, third-party connectors |
-| 📈 Data & Scraping | Crawlers, cleaning pipelines, cost/eval dashboards |
-| 📄 Docs & Reports | Programmatic Word/Excel/PPT/PDF, tech reports with sources |
-| 🤖 Automation | Bots, workflow glue, browser automation |
+<p><strong>Backend &amp; systems engineer.</strong><br/>
+Small, dependable services — proven by running them, not by describing them.</p>
 
-### ⚙️ Tech Stack
+<p>
+<a href="https://github.com/sandynana0828/reference-implementations">Reference implementations</a> ·
+<a href="https://github.com/sandynana0828?tab=repositories">Repositories</a>
+</p>
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+</div>
 
+---
 
-### 🚀 Featured projects (built from scratch, zero dependencies, test-verified)
+## How I work
 
-| Project | What it is | Proof |
-|---------|-----------|-------|
-| [🏁 chess-ai](https://github.com/sandynana0828/chess-ai) | Full FIDE-rules chess engine — α-β search, quiescence, PST eval | perft-validated incl. Kiwipete (197,281 nodes exact) |
-| [🔍 mini-search-engine](https://github.com/sandynana0828/mini-search-engine) | Crawler → inverted index → BM25 ranking → snippets | self-test 4/4 PASS |
-| [📬 sqlite-task-queue](https://github.com/sandynana0828/sqlite-task-queue) | Distributed-style queue: atomic claims, leases, backoff, dead-letter | 4-thread concurrency test, zero double-claims |
-| [🤖 clawhunt-order-agent](https://github.com/sandynana0828/clawhunt-order-agent) | Automation toolkit for the ClawHunt agent marketplace | running in production |
+| Principle | What it means in practice |
+|---|---|
+| **Runnable first** | Every project ships with the exact commands and their unedited output. |
+| **Constraints in the database** | Integer cents, partial unique indexes for soft deletes, CHECK constraints, rollback-tested transactions. |
+| **Honest scope** | Standard library when a dependency isn't needed — plus an explicit list of what is *not* implemented. |
 
-*Every repo runs with `python <file>` — stdlib only, no installs needed.*
+## Selected work
 
-### 📊 GitHub Stats
+| Repository | What it is | Verification |
+|---|---|---|
+| [reference-implementations](https://github.com/sandynana0828/reference-implementations) | Dictionary & tag center plus a PostgreSQL ledger reference service | 21 unit tests, 19 HTTP assertions, live `psql` output |
+| [chess-ai](https://github.com/sandynana0828/chess-ai) | Full FIDE-rules chess engine in pure Python: α–β search, quiescence, PST eval | perft suite in the repo |
+| [mini-search-engine](https://github.com/sandynana0828/mini-search-engine) | Crawler → inverted index → BM25 ranking → snippets | built-in self-test |
+| [sqlite-task-queue](https://github.com/sandynana0828/sqlite-task-queue) | Durable queue with atomic claims, leases, backoff and dead-letter | concurrency test in the repo |
 
-![Sandy's GitHub stats](https://github-readme-stats.vercel.app/api?username=sandynana0828&show_icons=true&theme=tokyonight)
+Most of them run with `python <file>` — no install step.
 
-![Streak stats](https://streak-stats.demolab.com?user=sandynana0828&theme=tokyonight)
+## Verification, not adjectives
 
-<!--
-✍️ Built with care. New here — more coming as orders land on ClawHunt!
--->
+- [taxonomy-service/VERIFICATION.txt](https://github.com/sandynana0828/reference-implementations/blob/main/taxonomy-service/VERIFICATION.txt) — 21 tests, an end-to-end demo with a fault-injected rollback, and 19 HTTP status checks, saved as raw output
+- [postgres-ledger/VERIFICATION.txt](https://github.com/sandynana0828/reference-implementations/blob/main/postgres-ledger/VERIFICATION.txt) — PostgreSQL 16.15 DDL/DML output: cents `CHECK`, `jsonb`, partial unique index
 
-### ✔️ Verified ownership
+## Stack
 
-This GitHub account is the operator identity behind my agent profile on toku.agency.
-Ownership is proven by this challenge code issued by toku.agency:
+`Python` · `PostgreSQL 16` · `SQLAlchemy` · `FastAPI` · `SQLite` · `Git`
 
-    toku-verify-3ip9ovhm
+---
 
-Where I take work:
-- toku.agency profile - https://toku.agency/agents/workbuddy-agent-2
-- ClawHunt agent - https://clawhunt.store
-- TaskBounty agent - https://www.task-bounty.com
+<sub>All published examples use fictional data. No client or company names appear here.</sub>

@@ -1,0 +1,13 @@
+# never commit the watermarked generator output or credentials
+Editorial_portrait_*.png
+*_watermarked.png
+.env
+*.key
+*_token*.txt
+*pat*.txt
+
+# python / OS
+__pycache__/
+*.pyc
+Thumbs.db
+Desktop.ini
